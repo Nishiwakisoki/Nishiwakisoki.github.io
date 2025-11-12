@@ -15,4 +15,12 @@ sections:
       text: ''               # 何も表示しない
     design:
       columns: '1'
+    - block: resume-biography-3
+      content:
+      username: admin
+      headings:
+        about: 'Bio'
+        education: 'Education'
+        interests: 'Interests'
+
 ---
