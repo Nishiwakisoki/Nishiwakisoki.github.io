@@ -1,5 +1,5 @@
 ---
-# 空ならサイトタイトルを使う（ブラウザのタブ名）
+# 空ならサイトタイトル（タブ名）を使う
 title: ''
 date: 2022-10-24
 type: landing
@@ -10,17 +10,25 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'Nishiwaki Soki'   # ←ここを名前に
+      title: 'Nishiwaki Soki'
       subtitle: ''
-      text: ''               # 何も表示しない
+      text: ''
     design:
       columns: '1'
-    - block: resume-biography-3
-      content:
+
+  - block: resume-biography-3
+    content:
       username: admin
+      text: ''
+      button:
+        text: ''
+        url: ''
       headings:
         about: 'Bio'
         education: 'Education'
         interests: 'Interests'
-
+    design:
+      avatar:
+        size: medium
+        shape: circle
 ---
