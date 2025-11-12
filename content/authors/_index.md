@@ -1,9 +1,6 @@
 ---
-# To publish author profile pages, remove all the `build` and `cascade` settings below.
-build:
-  render: never
-cascade:
-  build:
-    render: never
-    list: always
----
+# プロフィール（サイト共通）
+title: 西脇想起
+role: 北海道大学大学院 工学院 人間機械システムデザイン専攻・博士後期課程 
+bio: >
+  精密計測学・ロボティクス研究室
